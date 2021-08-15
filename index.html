@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body>
+<body class="bg-light">
 
   <!-- navbar start -->
-  <nav class="navbar navbar-light bg-light shadow-sm">
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
     <div class="container-lg">
       <a class="navbar-brand text-danger fw-bold fs-4" href=""> J.A </a>
 
@@ -27,13 +27,39 @@
           <li><a class="dropdown-item" href="#about">About</a></li>
           <li><a class="dropdown-item" href="#services">Services</a></li>
           <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-          <li><a class="dropdown-item" href="#testimonial">Testimonial</a></li>
+          <li><a class="dropdown-item" href="#testimonials">Testimonial</a></li>
           <li><a class="dropdown-item" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- navbar end -->
+
+  <!-- home section -->
+  <section class="home">
+    <div class="container-lg">
+      <div class="row bg-primary min-vh-100">
+        <div class="col-md-6">
+          <div class="home-img">
+            <img src="img/profile.png" alt="profile img">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="home-text">
+            <p>Oi, me chamo júlio</p>
+            <h1>Desenvolvedor BackEnd</h1>
+            <h2>Na stack Laravel</h2>
+            <p>Eu me apaixonei pela programação dévido a jogos eletrônicos, e a curiosidade de saber de como
+              funcionavam por baixo dos panos, por isso virei desenvolvedor backend
+            </p>
+            <a href="#portfolio">Meus trabalhos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end home section-->
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
